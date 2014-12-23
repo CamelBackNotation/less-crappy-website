@@ -34,6 +34,20 @@
 
 /* End Custom Carousel Style */
 
+/******* MY OWN PERSONAL CSS THAT'S NOT IN FREELANCER ******/
+.jumbotron {
+    background-color: red;
+    background-image: url(../img/dbcliff.jpg);
+    background-size: cover;
+    background-position: 45% 35%;
+}
+
+
+
+
+
+/******* MY OWN PERSONAL CSS THAT'S NOT IN FREELANCER ******/
+
 /*!
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.

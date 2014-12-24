@@ -174,8 +174,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                    <p>I enjoy craft beers, backpacking, Super Smash Bros and programming. Check out my GitHub and resume! If you have any questions just scroll down to send me a message.</p>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p style="text-align:justified;">I enjoy craft beers, backpacking, Super Smash Bros and programming. Check out my GitHub and resume! If you have any questions just scroll down to send me a message.</p>
                 </div>
                 <!--
                 <div class="col-lg-4">
@@ -228,14 +228,15 @@
                             </div>
                         </div>
                         <div class="row control-group">
-				            <div class="form-group">
+				            <div class="form-group col-xs-12 controls">
 				                <label>Are you a recruiter?</label>
 				                <div class="col-lg-10">
 				                    <div class="radio">
-				                        <label class="radio-inline"><input type="radio" name="optionsRadios" id="recruiter" value="option1" checked="">Yes
-				                        </label>
-                        				<label class="radio-inline"><input type="radio" name="optionsRadios" id="recruiter" value="option2">No
-                        				</label>
+				                        <label class="radio-inline"><input type="radio" name="isRecruiter" id="recruiter" required value="yes">Yes</label>
+                        				<label class="radio-inline"><input type="radio" name="isRecruiter" id="recruiter" required value="no">No</label>
+                        				<div class="radio disabled">
+                        				<label class="radio-inline"><input type="radio" name="isRecruiter" disabled>I'm Ron Burgandy?</label>
+                        				</div>
 				                    </div>
 				                </div>
 				                <p class="help-block text-danger"></p>

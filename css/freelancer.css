@@ -37,6 +37,12 @@
 #custom_carousel .carousel-inner h2 {
     text-transform: initial;
 }
+#custom_carousel .controls .nav p {
+    text-transform: uppercase;
+    color: #2c3e50;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
 
 /* End Custom Carousel Style */
 
@@ -249,8 +255,11 @@ section.success {
 
 
 @media(max-width:767px) {
-    section {
+    section:not(#contact) {
         padding: 75px 0;
+    }
+    #contact {
+        padding-top: 75px;
     }
 
     section.first {

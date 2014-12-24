@@ -38,10 +38,8 @@
     text-transform: initial;
 }
 #custom_carousel .controls .nav p {
-    text-transform: uppercase;
     color: #2c3e50;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
 }
 
 /* End Custom Carousel Style */

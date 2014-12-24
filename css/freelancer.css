@@ -228,11 +228,15 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 }
-
-section {
+.section-contact {
+    margin-bottom: -100px;
+}
+section:not(#contact) {
     padding: 100px 0;
 }
-
+#contact {
+    padding-top: 100px;
+}
 section h2 {
     margin: 0;
     font-size: 3em;
@@ -242,6 +246,7 @@ section.success {
     color: #fff;
     background: #18bc9c;
 }
+
 
 @media(max-width:767px) {
     section {

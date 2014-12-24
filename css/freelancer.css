@@ -21,7 +21,6 @@
     max-width:90px
 }
 #custom_carousel .controls li .derp {
-    padding: 10px;
     font-size: 24px;
 }
 #custom_carousel .controls li.active {
@@ -150,6 +149,9 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
+}
+header .img-responsive {
+    margin-top: -4em;
 }
 
 header .intro-text .name {

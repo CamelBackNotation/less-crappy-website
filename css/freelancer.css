@@ -44,6 +44,12 @@
 
 /* End Custom Carousel Style */
 
+
+
+
+
+
+
 /******* MY OWN PERSONAL CSS THAT'S NOT IN FREELANCER ******/
 .jumbotron {
     background-color: red;
@@ -52,11 +58,14 @@
     background-position: 45% 35%;
 }
 
-
-
-
-
 /******* MY OWN PERSONAL CSS THAT'S NOT IN FREELANCER ******/
+
+
+
+
+
+
+
 
 /*!
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
@@ -239,7 +248,7 @@ section:not(#contact) {
     padding: 100px 0;
 }
 #contact {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 section h2 {
     margin: 0;

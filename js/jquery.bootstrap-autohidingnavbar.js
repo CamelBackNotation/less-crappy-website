@@ -215,7 +215,8 @@ $(".navbar-fixed-top").autoHidingNavbar('show');
 else {
 // Auto-hide menu on tiny screens
 $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', false);
-$('.navbar-fixed-top').autoHidingNavbar('setShowOnUpscroll', false);
+$('.navbar-fixed-top').autoHidingNavbar('setShowOnUpscroll', true);
+$('.navbar-fixed-top').autoHidingNavbar('setShowOnBottom', false);
 }
 }
 

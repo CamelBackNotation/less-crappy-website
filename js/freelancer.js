@@ -34,5 +34,9 @@ $('body').scrollspy({
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
-    if ($(window).width() < 768) {$('.navbar-fixed-top').autoHidingNavbar('hide');}
+    if ($(window).width() < 768) {
+        setTimeout(function(){
+            $('.navbar-fixed-top').autoHidingNavbar('hide');
+        },1700); 
+    }
 });

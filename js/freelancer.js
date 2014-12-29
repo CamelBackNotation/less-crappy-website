@@ -37,6 +37,6 @@ $('.navbar-collapse ul li a').click(function() {
     if ($(window).width() < 768) {
         setTimeout(function(){
             $('.navbar-fixed-top').autoHidingNavbar('hide');
-        },1700); 
+        },1600); 
     }
 });

@@ -1,4 +1,6 @@
 This website was created using Bootstrap, an open source HTML, CSS, and JS framework. Open source code was used from Start Bootstrap and Bootsnipp. 
+
+Auto-hiding navbar code courtesy of https://github.com/istvan-ujjmeszaros/bootstrap-autohidingnavbar. Additional Javascript was added by me to tweak the functionality. 
 ## Creator
 
 Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).

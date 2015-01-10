@@ -131,12 +131,10 @@
 		                        <!-- What sm and up sees -->
 		                        <div align="center" class="embed-responsive embed-responsive-16by9 hidden-xs"><video align="center" class="embed-responsive-item" preload controls muted ><source src="http://webmup.com/6Bt83/vid.webm"/></video>
 								</div>
-								<!-- What xs(Mobile) Sees -->
-								
 								</div>
 		                        <div class="col-md-9">
 		                            <h2>Snake Solver</h2>
-		                            <p><a href="https://github.com/CamelBackNotation/gamejam">GitHub</a>&nbsp;<a class="visible-xs" href="http://webmup.filecom/6Bt83/vid.webm">Video demo</a></p>
+		                            <p><a href="https://github.com/CamelBackNotation/gamejam">GitHub</a>&nbsp;<a class="visible-xs" href="#snakesolverDemo" data-toggle="modal">Video demo</a></p>
 		                            <p>Snake Solver is a Python game written using the Pygame library during Jolly's Game Jam. The game is similar to snake except you have to eat the number which solves the equation at the top in order to advance to the next level.</p><p>In 2-player mode, control of the snake switches between players every 3rd level as depicted by a color change of the snake. This allows each player to trade-off roles of focusing on solving the equation and navigating the snake safely. </p>
 		                        </div>
 		                    </div>
@@ -145,10 +143,12 @@
 		            <div class="item">
 		                <div class="container-fluid">
 		                    <div class="row">
-		                        <div class="col-md-3"><img src="img/stockfeed.png" class="img-responsive hidden-xs"></div>
+		                        <div class="col-md-3 portfolio-item">
+                                <img src="img/StockFeed_sm.jpg" class="img-responsive hidden-xs">
+                                </div>
 		                        <div class="col-md-9">
 		                            <h2>Stock Feed</h2>
-		                            <p><a href="https://github.com/tireymorris/StockFeed">GitHub</a></p>
+		                            <p><a href="https://github.com/tireymorris/StockFeed">GitHub</a><br><a href="#stockfeedDemo" data-toggle="modal">Video demo</a></p>
 		                            <p>This smartwatch app provides stock and cryptocurrency information to the user. It was developed during HackTX with my group of friends.</p><p>We used a Samsung Galaxy Gear, Bloomberg's API, and a Microsoft Azure server in order to get the functionality of the app just right. My job was writing the backend using Bloomberg's API to retrieve stock information. </p>
 		                        </div>
 		                    </div>
@@ -265,6 +265,90 @@
         <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
+    </div>
+
+
+    <!-- Snake Solver pop-up video -->
+     <div class="portfolio-modal modal fade" id="snakesolverDemo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Snake Solver Demo</h2>
+                            <div align="center" class="embed-responsive embed-responsive-16by9">
+                                    <video align="center" class="embed-responsive-item" preload="" controls="" loop="" muted=""><source src="http://webmup.com/6Bt83/vid.webm">
+                                    </video>
+                            </div>
+                            <p>A short video demonstrating Snake Solver. It was tough to playtest because doing math after being awake for 24+ hours is much tougher than you would think. The audio is muted because the background music is <a href="https://www.youtube.com/watch?v=QrGrOK8oZG8">"Too Many Cooks"</a></p>
+                            <!-- Reserved for future editing
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stock Feed pop-up video -->
+    <div class="portfolio-modal modal fade" id="stockfeedDemo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Stock Feed Demo</h2>
+                            <div align="center" class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="http://www.youtube.com/embed/OsUa72iBv9M?rel=0" frameborder="0" allowfullscreen></iframe></div>
+                            <p>The Samsung Galaxy Gear we were using to develop our app updated to Tizen during the final hours of HackTX before our code was due. We were pretty annoyed but since the watch ran Android we could demo our app on a phone.</p>
+                            <!-- Reserved for future editing
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
        

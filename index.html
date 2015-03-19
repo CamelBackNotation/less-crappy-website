@@ -105,7 +105,7 @@
 		    	<div class="controls">
 		            <ul class="nav">
 		                <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><p>NASA</p></a></li>
-		                <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><p>Python</p> </a></li>
+		                <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><p>Python</p></a></li>
 		                <li data-target="#custom_carousel" data-slide-to="2"><a href="#"><p>Java</p></a></li>
 		                <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><p>Web</p></a></li>
 		            </ul>
@@ -136,6 +136,18 @@
 		                            <h2>Snake Solver</h2>
 		                            <p><a href="https://github.com/CamelBackNotation/gamejam" target="_top">GitHub</a>&nbsp;<a class="visible-xs" href="#snakesolverDemo" data-toggle="modal">Video demo</a></p>
 		                            <p>Snake Solver is a Python game written using the Pygame library during Jolly's Game Jam. The game is similar to snake except you have to eat the number which solves the equation at the top in order to advance to the next level. The game is 2-player to fit Jolly's Game Jam theme of "Co-op".</p><p>The video shows how control of the snake switches between players every 3rd level as depicted by a color change of the snake. This allows each player to trade-off roles of focusing on solving the equation and navigating the snake safely. </p>
+		                        </div>
+		                        <div class="col-md-3">
+		                        <!-- What sm and up sees -->
+		                        <div align="center" class="embed-responsive embed-responsive-16by9 hidden-xs"><video align="center" class="embed-responsive-item" preload controls ><source src="./img/myo.mp4"/></video>
+								</div>
+
+								</div>
+		                        <div class="col-md-9">
+		                            <h2>Myo-controlled Desktop (Linux)</h2>
+		                            <p><a href="https://github.com/CamelBackNotation/hackdfw" target="_top">GitHub</a>&nbsp;<a class="visible-xs" href="#myoArmband" data-toggle="modal">Video demo</a></p>
+		                            <p>My friend <a href="http://pmauldin.me">Peter Mauldin</a> and I took a <a href="https://www.thalmic.com/en/myo/">Myo armband</a>, created custom gestures from raw EMG data, and mapped those gestures to various actions for our computer. The video demo shows off one of our gestures: when the user gives a thumbs up, their music player of choice will open. For me it was Spotify.</p> 
+		                            <p>We also mapped a middle-finger to open our Snake Solver (see above) game, a slightly curled palm thrust forward would open a new tab in Chrome (first opening Chrome if it was not open), and swiping your hand to the right would alt-tab between currently open programs.</p>
 		                        </div>
 		                    </div>
 		                </div>            
@@ -328,6 +340,52 @@
                             <h2>Stock Feed Demo</h2>
                             <div align="center" class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="http://www.youtube.com/embed/OsUa72iBv9M?rel=0" frameborder="0" allowfullscreen></iframe></div>
                             <p>The Samsung Galaxy Gear we were using to develop our app updated to Tizen during the final hours of HackTX before our code was due. We were pretty annoyed but since the watch previously ran Android, all of our code ran as a native Android app for a phone.</p>
+                            <!-- Reserved for future editing
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Myo Armband Gesture pop-up video -->
+     <div class="portfolio-modal modal fade" id="myoArmband" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Myo Desktop Demo</h2>
+                            <div align="center" class="embed-responsive embed-responsive-16by9">
+                                    <video align="center" class="embed-responsive-item" preload="" controls="">
+                                        <source src="./img/myo.mp4">
+                                    </video>
+                            </div>
+                            <p>This project took us 3 hours from start to finish. We decided to do this because our first idea of a motion-controlled occulus-experienced flight simulator fell through (we both use Linux laptops and there's horrible support from Occulus and Myo). The drivers we used for the Myo were open-source and provided us the raw EMG data to create our custom gestures.</p>
                             <!-- Reserved for future editing
                             <ul class="list-inline item-details">
                                 <li>Client:
